@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://extracurriculares-gi.onrender.com/api/:path*"
+      "destination": "https://extracurriculares-api-production.up.railway.app/api/:path*"
     },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
